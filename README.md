@@ -9,3 +9,16 @@
 - [x] Integrate Bluetooth Capabilies in .ino file.
 - [x] Create the Interface for the APP. (aia)
 - [x] Program the Mobile Application for Functionality (aia).
+
+## Instructions before using [IMPORTANT]:
+<p align="left">First, go to the components lists tab, then scroll to the bottom of it until you see these two: </p>
+
+![alt-text](https://github.com/chrispycreeme/flotify/blob/main/image1.png)
+
+<p><b>randomData_FORTEST</b> and <b>rainRandData_FORRTEST</b></p>
+
+After doing so, look at the right of the interface; do this for both components:
+
+![alt-text](https://github.com/chrispycreeme/flotify/blob/main/image.png)
+
+Ginamit ko kasi itong dalawa for testing kung gumagana yung datas. I-off muna yung both bago gamitin, otherwise baka mag crash yung app. Thanks.

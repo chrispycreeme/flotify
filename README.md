@@ -21,4 +21,4 @@ After doing so, look at the right of the interface; do this for both components:
 
 ![alt-text](https://github.com/chrispycreeme/flotify/blob/main/image.png)
 
-Ginamit ko kasi itong dalawa for testing kung gumagana yung datas. I-off muna yung both bago gamitin, otherwise baka mag crash yung app. Thanks.
+Ginamit ko kasi itong dalawa for testing kung gumagana yung datas. I-off muna yung both na enabled sa components bago gamitin, otherwise baka mag crash yung app. Thanks.

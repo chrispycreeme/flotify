@@ -6,6 +6,6 @@
 
 ## Goals
 
-- [ ] Integrate Bluetooth Capabilies in .ino file.
+- [x] Integrate Bluetooth Capabilies in .ino file.
 - [x] Create the Interface for the APP. (aia)
-- [ ] Program the Mobile Application for Functionality (aia).
+- [x] Program the Mobile Application for Functionality (aia).

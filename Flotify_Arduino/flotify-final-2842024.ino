@@ -65,13 +65,13 @@ void loop() {
   float distanceInInches = distance / 2.54; 
 
   //  take actions based on distance
-  if (distance < 30) {
+  if (distance < 60) {
     callNumber();
     floodLevelIndicator = 1;
-  } else if (distance < 60) {
+  } else if (distance < 120) {
     SendMessage();
     floodLevelIndicator = 2;
-  } else if (distance < 90) {
+  } else if (distance < 180) {
     floodLevelIndicator = 3;
   } else {
     floodLevelIndicator = 0;
@@ -108,6 +108,8 @@ void loop() {
   bleHM10.print(distanceInInches);
   bleHM10.print(",");
   bleHM10.print(distancePercentage);
+  bleHM10.print(",");
+  bleHM10.print(floodLevelIndicator);
   bleHM10.println(",");
 
   delay(500);
